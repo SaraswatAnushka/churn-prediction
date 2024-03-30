@@ -16,7 +16,7 @@ q = ""
 
 @app.route("/")
 def loadPage():
-	return render_template('index.html', query="")
+	return render_template('api/templates/index.html', query="")
 
 
 @app.route("/", methods=['POST'])
@@ -135,4 +135,4 @@ def predict():
 
 
 
-app.run(debug=True,port=5002)
+# app.run(debug=True,port=5002)
