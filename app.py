@@ -135,4 +135,4 @@ def predict():
 
 
 
-# app.run(debug=True,port=5002)
+# app.run(debug=True,port=10000)
